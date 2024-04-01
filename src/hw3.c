@@ -94,12 +94,12 @@ GameState* place_tiles(GameState *game, int row, int col, char direction, const 
     (void)direction;
     (void)tiles;
     (void)num_tiles_placed;
-    return NULL;
+    return game;
 }
 
 GameState* undo_place_tiles(GameState *game) {
     (void)game;
-    return NULL;
+    return game;
 }
 
 void free_game_state(GameState *game) {
